@@ -1,0 +1,53 @@
+# Eclipse settings for O1
+
+file_export_version=3.0
+@org.scala-ide.sdt.core=3.0.0.rc01-2_10-201306070915-5fde194
+@org.eclipse.ui.editors=3.8.0.v20120523-1540
+@org.eclipse.core.resources=3.8.1.v20121114-124432
+@org.eclipse.ui.workbench.texteditor=3.8.0.v20120523-1310
+@org.eclipse.debug.core=3.7.100.v20120521-2012
+@org.eclipse.core.resources=3.8.1.v20121114-124432
+@org.eclipse.ui.workbench=3.108.3.v20170216-1539
+
+# Syntax Highlighting for Scala
+/instance/org.scala-ide.sdt.core/syntaxColouring.semantic.localVar.colour=128,0,255
+/instance/org.scala-ide.sdt.core/syntaxColouring.semantic.localVal.colour=0,0,192
+/instance/org.scala-ide.sdt.core/syntaxColouring.semantic.templateVar.colour=128,0,255
+/instance/org.scala-ide.sdt.core/syntaxColouring.semantic.lazyLocalVal.colour=0,0,192
+/instance/org.scala-ide.sdt.core/syntaxColouring.numberLiteral.colour=91,0,0
+/instance/org.scala-ide.sdt.core/syntaxColouring.multiLineString.colour=0,128,255
+/instance/org.scala-ide.sdt.core/syntaxColouring.multiLineComment.colour=78,156,117
+/instance/org.scala-ide.sdt.core/syntaxColouring.singleLineComment.colour=78,156,117
+/instance/org.scala-ide.sdt.core/syntaxColouring.scaladoc.colour=78,156,117
+
+# Editor settings
+/instance/org.scala-ide.sdt.core/scala.tools.eclipse.editor.markOccurences=true
+/instance/org.eclipse.ui.editors/lineNumberRuler=true
+/instance/org.eclipse.ui.editors/textDragAndDropEnabled=false
+/instance/org.eclipse.ui.editors/spellingEnabled=false
+/instance/org.eclipse.core.resources/encoding=UTF-8
+/instance/org.eclipse.jdt.ui/editor_folding_enabled=false
+/instance/org.scala-ide.sdt.core/scala.tools.eclipse.editor.indentGuideEnable=false
+/instance/org.eclipse.wst.sse.ui/foldingEnabled=false
+
+# Keybinds: ALT+F11 REPL, SHIFT+F11 runs Scala program
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+F11"/>\n<keyBinding commandId\="org.eclipse.shortcut.scala.run" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="SHIFT+F11"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+SHIFT+Q Q"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+SHIFT+X S"/>\n<keyBinding contextId\="scala.tools.eclipse.scalaEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+X"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+F11"/>\n<keyBinding commandId\="org.eclipse.ui.views.showView" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+F11">\n<parameter id\="org.eclipse.ui.views.showView.viewId" value\="org.scala-ide.sdt.core.consoleView"/>\n</keyBinding>\n<keyBinding commandId\="org.scalaide.core.handler.RunSelectionInInterpreter" contextId\="scala.tools.eclipse.scalaEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+X"/>\n</org.eclipse.ui.commands>
+
+# Debug stuff
+/instance/org.eclipse.debug.core/org.eclipse.debug.core.USE_STEP_FILTERS=true
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.UseContextualLaunch=false
+/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.inactive_filters=
+/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.active_filters=com.ibm.*,com.sun.*,java.*,javax.*,jrockit.*,org.omg.*,scala.*,sun.*,sunw.*,java.lang.ClassLoader
+
+# Project layout settings: separate source and output folders
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.wizards.srcBinFoldersInNewProjects=true
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.wizards.srcBinFoldersSrcName=src
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.wizards.srcBinFoldersBinName=bin
+
+# Disable highlighting for implicit conversions and implicit parameters
+/instance/org.scala-ide.sdt.core/scala.tools.eclipse.ui.preferences.implicit.firstline.only=false
+/instance/org.scala-ide.sdt.core/scala.tools.eclipse.ui.preferences.implicit.conversions.only=false
+/instance/org.scala-ide.sdt.core/scala.tools.eclipse.ui.preferences.implicit.enabled=false
+
+# Don't compile every scope separately
+/instance/org.scala-ide.sdt.core/useScopesCompiler=false
