@@ -9,3 +9,4 @@ In Aalto University:
   - CS-A1140 Data Structures and Algorithms
   - ELEC-A7151 Object oriented programming with C++
   - CS-E4580 Programming Parallel Computers D
+  - ELEC-A7100 Basic Course in C programming
