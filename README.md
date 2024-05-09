@@ -1,2 +1,4 @@
-# Directory for collecting previous school projects
+# Directory for previous school projects
 
+In Aalto University:
+- E23213123
